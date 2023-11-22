@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin: 0
+}
+.listTitle{
+    padding: 12px;
+    text-align: center;
+}
+.listaDePublicaciones {
+    display: flex;
+    height: 100vh;
+    padding: 9px;
+    justify-content: center;
+gap:12px;
+}
+
+#postList {
+    height: 500;
+    border: 1px solid rgb(0, 0, 0);
+    overflow-y: scroll;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#postDetails {
+    width: 460px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 30px  rgb(214, 212, 212);
+    align-self: center;
+}
+.listas{
+color: #837e7e;
+padding:6px;
+font-family:sans-serif;
+font-weight:700;
+margin: 0;
+}
+
+.listas:hover{
+    color: #000000;
+}
